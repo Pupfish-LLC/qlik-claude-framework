@@ -1,0 +1,12 @@
+{
+  "currentPhase": null,
+  "artifacts": {},
+  "blockedDependencies": [],
+  "placeholderLogic": [],
+  "downstreamImpacts": {},
+  "resolutionTriggers": [],
+  "executionValidation": {
+    "requests": [],
+    "results": []
+  }
+}

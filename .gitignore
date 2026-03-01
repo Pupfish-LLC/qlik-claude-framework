@@ -1,0 +1,44 @@
+# Claude Code local preferences (personal, not shared)
+CLAUDE.local.md
+
+# Pipeline state (runtime data, not framework code)
+# The template (.pipeline-state.template.json) IS tracked as a schema reference
+.pipeline-state.json
+
+# User-provided input files (project-specific, not framework code)
+inputs/source-documentation/*
+inputs/existing-apps/*
+inputs/platform-libraries/*
+inputs/upstream-architecture/*
+
+# Generated artifacts (project-specific output, not framework code)
+artifacts/00-platform-context.md
+artifacts/01-project-specification.md
+artifacts/02-source-profile.md
+artifacts/03-data-model-specification.md
+artifacts/04-scripts/*.qvs
+artifacts/04-scripts/diagnostics/*
+artifacts/05-expression-catalog.md
+artifacts/05-expression-variables.qvs
+artifacts/06-viz-specifications.md
+artifacts/06-master-item-definitions.md
+artifacts/06-manual-build-checklist.md
+artifacts/07-qa-reports/*.md
+artifacts/08-documentation/*.md
+
+# Keep .gitkeep files
+!**/.gitkeep
+
+# MCP configuration (environment-specific)
+.mcp.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

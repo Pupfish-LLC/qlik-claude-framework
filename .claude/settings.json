@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PreToolUse": [],
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/validate-qvs-syntax.sh"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [],
+    "Stop": [],
+    "SubagentStop": []
+  }
+}
