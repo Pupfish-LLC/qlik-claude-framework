@@ -10,6 +10,8 @@ The framework produces comprehensive, domain-aware artifacts: specifications, da
 
 ## Architecture Overview
 
+See [CLAUDE.md](CLAUDE.md) for the full orchestration logic, pipeline gates, and context-passing strategy.
+
 ### Pipeline Phases
 
 | Phase | Agent | Output |
@@ -44,11 +46,11 @@ The framework produces comprehensive, domain-aware artifacts: specifications, da
 
 Skills encode Qlik-specific patterns, anti-patterns, and best practices: cross-layer field naming strategies, dual-timestamp incremental loads for SCD2 satellites, null handling patterns, diagnostic query templates, and more.
 
-## Current Status
+## What's Included
 
-**This is a scaffold release.** The complete architectural skeleton is published here under the MIT license: directory structure, agent definitions (with frontmatter specifying roles, tool access, and skill dependencies), skill definitions (with frontmatter and descriptions), hook configurations, and pipeline state schema. This gives you the full blueprint for the multi-agent pipeline.
+The architectural skeleton is fully open: detailed orchestration rules, directory structure, agent definitions (with frontmatter specifying roles, tool access, and skill dependencies), skill definitions (with frontmatter and descriptions), hook configurations, orchestrator logic, and pipeline state schema. This gives you the complete blueprint for the multi-agent pipeline.
 
-System prompts, domain knowledge content, and orchestration logic are under active development. Each file contains TODO placeholders describing what content will be added as the framework is built out.
+Agent system prompts and skill domain knowledge content have been developed separately and are not included in this release. Each file contains structural placeholders showing what belongs there. The framework is designed so that practitioners can author their own content using the architecture as a guide, or contact [Pupfish](https://pupfish.io) to collaborate on complete implementation.
 
 ## Directory Structure
 
@@ -74,10 +76,13 @@ qlik-claude-framework/
 ## Requirements
 
 - [Claude Code](https://claude.ai/claude-code) (CLI tool from Anthropic)
+- Familiarity with Claude Code's [subagent architecture](https://code.claude.com/docs/en/sub-agents), [skills](https://code.claude.com/docs/en/skills), and [CLAUDE.md configuration](https://code.claude.com/docs/en/memory)
 - A Qlik Sense environment (Cloud or client-managed) for execution validation
 - Optionally: MCP database connections for automated source profiling
 
-## How It Will Work (When Complete)
+## How It Works
+
+With agent system prompts and skill content in place, the workflow is:
 
 1. Clone this repo into your Qlik project directory
 2. Place source materials in `inputs/` (existing apps, schema docs, upstream architecture docs)
@@ -99,7 +104,7 @@ This repo is released as a framework template. See [CONTRIBUTING.md](CONTRIBUTIN
 
 ## License
 
-MIT License. Copyright (c) 2026 Pupfish, LLC. See [LICENSE](LICENSE) and [NOTICE](NOTICE) for details.
+MIT License. Copyright (c) 2025 Pupfish, LLC. See [LICENSE](LICENSE) and [NOTICE](NOTICE) for details.
 
 ## Author
 
