@@ -67,7 +67,6 @@ Track per artifact: version, status (draft/reviewed/approved/validated), depende
 
 - `inputs/` — User-provided source materials. **Read-only for all agents.** Subdirs: `source-documentation/`, `existing-apps/`, `platform-libraries/`, `upstream-architecture/`.
 - `artifacts/` — Framework output, organized by phase number (00 through 08). Agents write here.
-- Project root reference files: `qlik-model.md`, `qlik-script.md`, `qlik-review.md` — Practitioner-authored patterns consumed by skills, not agents directly.
 
 ## Context Passing
 
