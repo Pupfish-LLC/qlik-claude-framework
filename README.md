@@ -1,9 +1,9 @@
 # Qlik Development Framework for Claude Code
 
 > [!NOTE]
-> **Looking for a ready-to-use Qlik plugin?** A fully operational Qlik development toolkit (`pupfish-qlik`) is available from the **[Pupfish Claude Marketplace](https://github.com/Pupfish-LLC/claude-plugins)** — 12 practitioner-authored skills, 7 specialist agents, and a syntax-validation hook, installable in seconds.
+> **Looking for a ready-to-use Qlik plugin?** A fully operational Qlik development toolkit ([`qlik-toolkit`](https://github.com/Pupfish-LLC/qlik-toolkit)) is available from the **[Pupfish Claude Marketplace](https://github.com/Pupfish-LLC/claude-plugins)**. 12 skills, 7 specialist agents, and a syntax-validation hook, installable in seconds.
 >
-> **This repo is different.** It's an *empty framework template* — the architectural skeleton (orchestrator, agent and skill definitions, pipeline state schema, hook configurations) that you can use as a starting point for building your own full Qlik development pipeline with orchestrated Claude agents. Skill content and agent system prompts are placeholders here; the structure shows what belongs where.
+> **This repo is different.** It's an *empty framework template*, the architectural skeleton (orchestrator, agent and skill definitions, pipeline state schema, hook configurations) that you can use as a starting point for building your own full Qlik development pipeline with orchestrated Claude agents. Skill content and agent system prompts are placeholders here; the structure shows what belongs where.
 
 A multi-agent development framework that accelerates end-to-end Qlik Sense application development using [Claude Code](https://claude.ai/claude-code), Anthropic's agentic coding tool.
 
@@ -55,7 +55,7 @@ Skills encode Qlik-specific patterns, anti-patterns, and best practices: cross-l
 
 The architectural skeleton is fully open: detailed orchestration rules, directory structure, agent definitions (with frontmatter specifying roles, tool access, and skill dependencies), skill definitions (with frontmatter and descriptions), hook configurations, orchestrator logic, and pipeline state schema. This gives you the complete blueprint for the multi-agent pipeline.
 
-Agent system prompts and skill domain knowledge content have been developed separately and are not included in this release. Each file contains structural placeholders showing what belongs there. The framework is designed so that practitioners can author their own content using the architecture as a guide, or contact [Pupfish](https://pupfish.io) to collaborate on complete implementation.
+Agent system prompts and skill domain knowledge content have been developed separately and are not included in this release. Each file contains structural placeholders showing what belongs there. The framework is designed so that practitioners can author their own content using the architecture as a guide, or contact [Pupfish Analytics](https://pupfish.io) to collaborate on complete implementation.
 
 ## Directory Structure
 
@@ -113,6 +113,6 @@ MIT License. Copyright (c) 2025 Pupfish, LLC. See [LICENSE](LICENSE) and [NOTICE
 
 ## Author
 
-Created by [Pupfish, LLC](https://pupfish.io).
+Created by [Pupfish Analytics](https://pupfish.io).
 
 For assistance with implementation, customization, or enhancement, visit [pupfish.io](https://pupfish.io).
