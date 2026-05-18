@@ -1,5 +1,10 @@
 # Qlik Development Framework for Claude Code
 
+> [!NOTE]
+> **Looking for a ready-to-use Qlik plugin?** A fully operational Qlik development toolkit (`pupfish-qlik`) is available from the **[Pupfish Claude Marketplace](https://github.com/Pupfish-LLC/claude-plugins)** — 12 practitioner-authored skills, 7 specialist agents, and a syntax-validation hook, installable in seconds.
+>
+> **This repo is different.** It's an *empty framework template* — the architectural skeleton (orchestrator, agent and skill definitions, pipeline state schema, hook configurations) that you can use as a starting point for building your own full Qlik development pipeline with orchestrated Claude agents. Skill content and agent system prompts are placeholders here; the structure shows what belongs where.
+
 A multi-agent development framework that accelerates end-to-end Qlik Sense application development using [Claude Code](https://claude.ai/claude-code), Anthropic's agentic coding tool.
 
 ## What This Is
